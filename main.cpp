@@ -49,6 +49,7 @@ std::string calculateMask(int core) {
 int main(int argc, char *argv[]) {
     if (argc < 3) {
         std::cerr << "Usage: " << argv[0] << " {all|local|remote|one|custom} [ethX]" << std::endl;
+        std::cerr << "Author: Liansixin" << std::endl;
         return 1;
     }
 
